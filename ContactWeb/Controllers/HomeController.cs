@@ -8,9 +8,9 @@ namespace ContactWeb.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index() 
         {
-            return View();
+            return View(); // will return the Index.cshtml in View folder because it has the same name as the ActionResult
         }
 
         public ActionResult About()
